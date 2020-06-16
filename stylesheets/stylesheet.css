@@ -258,3 +258,7 @@ a {
    top: 0;
    width: 100%;
 }
+
+.iframe-container-4x3 {
+  padding-top: 75%;
+}
