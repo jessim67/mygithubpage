@@ -244,21 +244,17 @@ a {
   .site-footer {
     font-size: 0.9rem; } }
 
-.iframe-container{
-margin: 0 auto;
-max-width:100%;
-width:75%;
-height:1000px;
+.iframe-container {
+  overflow: hidden;
+  padding-top: 75%;
+  position: relative;
 }
-@media only screen and (max-width: 992px) {
-	.iframe-container{
-		width: 75%;
-		height:1000px;
-	}
-}
-@media only screen and (max-width: 600px) {
-   .iframe-container{
-		width: 75%;
-		height:500px;
-	}
+ 
+.iframe-container iframe {
+   border: 0;
+   height: 100%;
+   left: 0;
+   position: absolute;
+   top: 0;
+   width: 100%;
 }
