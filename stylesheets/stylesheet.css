@@ -243,22 +243,3 @@ a {
 @media screen and (max-width: 42em) {
   .site-footer {
     font-size: 0.9rem; } }
-
-.iframe-container {
-  overflow: hidden;
-  padding-top: 75%;
-  position: relative;
-}
- 
-.iframe-container iframe {
-   border: 0;
-   height: 100%;
-   left: 0;
-   position: absolute;
-   top: 0;
-   width: 100%;
-}
-
-.iframe-container-4x3 {
-  padding-top: 75%;
-}
