@@ -244,6 +244,11 @@ a {
   .site-footer {
     font-size: 0.9rem; } }
 
+.resp-container {
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%; }
+
 .resp-iframe {
     position: absolute;
     top: 0;
